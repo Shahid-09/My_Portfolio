@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(98, 2, 168);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------- This is Index page style ---------------------------- */
+
+img {
+    width: 100px;
+}
+
+/* header section */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(32, 6, 51);
+}
+
+/* logo section */
+nav .left {
+    display: flex;
+    align-items: center;
+}
+
+/* nav items section */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+/* nav items section */
+nav,
+ul,
+li,
+a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(247, 37, 52)
+}
+
+/* --------------------------------------------------- */
+/* Section box */
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 70px;
+}
+
+.section-left {
+    font-size: 2rem;
+}
+
+.section-right img {
+    width: 300px;
+}
+
+.section-right p {
+    font-size: 16px;
+    color: rgb(0, 255, 72);
+}
+
+/* button section */
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#Mybtn {
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #04AA6D;
+    color: white;
+    cursor: pointer;
+}
+
+#Mybtn:hover {
+    background-color: rgb(88, 253, 80);
+    color: black;
+}
+
+/* footer section */
+.footer {
+    text-align: center;
+    margin-top: 60px;
+    background-color: rgb(32, 6, 51);
+    height: 40px;
+    padding: 5px 0;
+}
+
+footer p {
+    color: white;
+}
+
+/* ------------------- This is about page css style ---------------------------- */
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin-top: 110px;
+}
+
+/* Left section of about */
+.about-left {
+    /* border: 2px solid red; */
+    width: 440px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    background-color: rgb(32, 6, 51);
+    border-radius: 8px;
+    color: rgb(88, 253, 80);
+}
+
+/* Right section of about */
+.about-right {
+    width: 450px;
+
+}
+
+.my-img {
+    width: 430px;
+    height: 440px;
+    border-radius: 15px;
+
+}
+
+/* ------------------------ This is Contact me style page -------------------------- */
+
+/* this is h2 header */
+.head {
+    font-size: 35px;
+    text-align: center;
+    color: rgb(88, 253, 80);
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+.container-form {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-style {
+    width: 850px;
+    font-size: 20px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    /* border: 1px solid #00ff15; */
+    background-color: rgb(9, 1, 23);
+    color: white;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=radio] {
+    width: 25px;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* ----------------------------- This is Project style ---------------------------- */
+
+/* This is container box */
+.container-box {
+    display: flex;
+    margin-top: 80px;
+    height: 390px;
+    color: white;
+}
+
+/* This is box1 */
+.box1 {
+    border: 2px solid rgb(9, 115, 237);
+    width: 50%;
+    border-radius: 8px;
+    margin: 0 5px;
+    background-color: rgb(18, 1, 27);
+    text-align: center;
+    color: white;
+}
+
+/* This is box2 */
+.box2 {
+    border: 2px solid rgb(9, 115, 237);
+    width: 50%;
+    border-radius: 8px;
+    margin: 0 5px;
+    background-color: rgb(18, 1, 27);
+    text-align: center;
+}
+
+.p-image {
+    width: 300px;
+}
+
+.p-head {
+    color: rgb(88, 253, 80);
+}
+
+.para {
+    margin: 10px 34px;
+}
+
+/* ----------------------------- This is Skills style ---------------------------- */
+
+.s-container {
+    width: 90%;
+    background-color: rgb(18, 1, 27);
+    margin: 15px 5px;
+    border-radius: 8px;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: rgb(13, 0, 0);
+    border-radius: 8px;
+}
+
+/* paragraph style */
+.p-skill{
+    color: white;
+    margin: 15px 15px;
+    font-size: 20px;
+
+}
+
+.html {
+    width: 80%;
+    background-color: #33f259;
+}
+
+.css {
+    width: 70%;
+    background-color: #028bfa;
+}
+
+.js {
+    width: 60%;
+    background-color: #fd20e0;
+}
+
+.python {
+    width: 50%;
+    background-color: #f62222;
+}
